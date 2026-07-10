@@ -1,0 +1,139 @@
+.about-section {
+  margin: 0;
+  background: #f1eaea;
+  color: #fff;
+  padding: 3rem 0;
+  min-height: 100vh;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  line-height: 1.4;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+/* 
+.fact-card {
+  background: linear-gradient(145deg, #15131c, #1e1b29);
+  border: 1px solid #2d2d39;
+  border-radius: 22px;
+  padding: 2rem;
+  transition: 0.35s ease;
+}
+
+.fact-card:hover {
+  transform: translateY(-8px);
+  border-color: #4f46e5;
+  box-shadow: 0 15px 30px rgba(79, 70, 229, 0.2);
+}
+
+.fact-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.fact-card p {
+  margin-bottom: 1rem;
+  color: #d3d3d3;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.fact-card span {
+  color: #fff;
+  font-weight: 600;
+} */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .facts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .facts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .fact-card {
+    padding: 1.5rem;
+  }
+}
+
+
+.fact-card {
+  background: linear-gradient(150deg, #16141f 0%, #1c1a28 60%, #211d30 100%);
+  border: 1px solid #2a2836;
+  border-radius: 24px;
+  padding: 2.25rem 2rem;
+  max-width: 380px;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  transition: 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.fact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+}
+
+.fact-card:hover {
+  transform: translateY(-8px);
+  border-color: #6366f1;
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.25);
+}
+
+.fact-card h3 {
+  font-size: 1.6rem;
+  margin: 0 0 0.35rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.fact-card .tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.12);
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 1.4rem;
+  letter-spacing: 0.02em;
+}
+
+.fact-card p {
+  margin: 0 0 0.9rem;
+  color: #b8b8c2;
+  line-height: 1.75;
+  font-size: 0.98rem;
+}
+
+.fact-card p:last-child {
+  margin-bottom: 0;
+}
+
+.fact-card span {
+  color: #fff;
+  font-weight: 600;
+}
+

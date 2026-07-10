@@ -1,0 +1,95 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #0f172a;
+  --background-color: #f8fafc;
+  --text-color: #1e293b;
+  --white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Common Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Section Spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Main Content */
+main {
+  min-height: calc(100vh - 70px);
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+
+  main {
+    padding: 15px;
+  }
+}

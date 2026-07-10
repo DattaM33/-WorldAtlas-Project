@@ -1,0 +1,69 @@
+[
+    {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1428627663,
+    "interestingFact": "India is the birthplace of four major world religions: Hinduism, Buddhism, Jainism, and Sikhism."
+  },
+  {
+    "id": 2,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 67407241,
+    "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
+  },
+  {
+    "id": 3,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125360000,
+    "interestingFact": "Japan has more than 6,800 islands, but only about 430 of them are inhabited."
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasilia",
+    "population": 215313498,
+    "interestingFact": "Brazil is home to about 60% of the Amazon rainforest, the largest rainforest on Earth."
+  },
+ 
+  {
+    "id": 6,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26439100,
+    "interestingFact": "Australia is home to more than 80% of plant and animal species found nowhere else on Earth."
+  },
+ 
+  {
+    "id": 8,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 84552242,
+    "interestingFact": "Germany has over 1,500 different types of beer and around 300 varieties of bread."
+  },
+  {
+    "id": 9,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 58870762,
+    "interestingFact": "Italy has more UNESCO World Heritage Sites than any other country in the world."
+  },
+ 
+  {
+    "id": 11,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 60414495,
+    "interestingFact": "South Africa has three capital cities: Pretoria, Cape Town, and Bloemfontein."
+  },
+  {
+    "id": 12,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 144444359,
+    "interestingFact": "Russia spans 11 time zones, more than any other country in the world."
+  }
+
+]
