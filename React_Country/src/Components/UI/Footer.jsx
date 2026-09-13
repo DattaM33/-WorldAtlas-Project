@@ -3,7 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-import footerContact from "../../api/footerApi.json";
+import footerContact from "../../api/footerapi.json";
 
 
 

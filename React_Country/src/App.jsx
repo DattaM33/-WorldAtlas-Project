@@ -17,7 +17,7 @@ const router=createBrowserRouter([
    errorElement:<Error />,
    children:[
        {
-  path:"home",
+  path:"/",
   element:<Home />
  },
      {
@@ -28,7 +28,7 @@ const router=createBrowserRouter([
   path:"about",
   element: <About />
  },
-  {
+  { 
   path:"contact",
   element:<Contact />
  }]

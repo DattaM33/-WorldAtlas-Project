@@ -9,7 +9,6 @@ function AppLayout()
      <Headers/>
      <Outlet/>
      <Footer/>
-
     </>
   );
 }
